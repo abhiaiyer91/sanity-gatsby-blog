@@ -7,7 +7,7 @@ const clientConfig = require('./client-config')
 
 const isProd = process.env.NODE_ENV === 'production'
 
-const foo = `bar!!!!!`
+const foo = `ba!!!`
 
 module.exports = {
   plugins: [
