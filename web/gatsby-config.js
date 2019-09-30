@@ -7,6 +7,8 @@ const clientConfig = require('./client-config')
 
 const isProd = process.env.NODE_ENV === 'production'
 
+const foo = `bar!!!`
+
 module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
